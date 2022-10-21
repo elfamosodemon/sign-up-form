@@ -1,0 +1,78 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+        }
+        
+        .picture {
+            background-image: url(/imgs/halie-west-25xggax4bSA-unsplash.jpg);
+            background-size: cover;
+            height: 100vh;
+            width: 500px;
+            display: flex;
+            color: white;
+            gap: 10px;
+        }
+        
+        .odin-logo {
+            display: flex;
+            position: relative;
+            bottom: 200px;
+            align-self: center;
+            height: 150px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.35);
+            justify-content: center;
+        }
+        
+        .odin-icon {
+            align-self: center;
+            width: 90px;
+        }
+        
+        .img-info {
+            position: absolute;
+            align-self: flex-end;
+            margin-bottom: 10px;
+            left: 100px;
+        }
+        
+        .odin {
+            align-self: center;
+            font-size: 50px;
+        }
+        
+        .sign-up {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .text {
+            width: 1000px;
+            height: 40vh;
+            background-color: rgb(246, 246, 246);
+            font-size: 22px;
+        }
+        
+        .form-info {
+            width: 1000px;
+            height: 30vh;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.384);
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .button {
+            width: 1000px;
+            height: 30vh;
+        }
+        
+        .lets-do-this {
+            font-size: 22px;
+            align-self: flex-start;
+        }
